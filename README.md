@@ -1,7 +1,7 @@
 # RainbowTag
 
 The source code for the paper https://ieeexplore.ieee.org/document/9743123 can be found in the code folder. See
-https://juloss.github.io/RainbowTag/ for RainbowTag demo videos and more.
+https://juloss.github.io/rainbowtag/ for RainbowTag demo videos and more.
 
 ## How to use the code:
 
@@ -25,7 +25,7 @@ Once the markers are printed and the white point is chosen:
 
 7. Run the script *main_process_and_save.py* to process the images provided in the *images* folder. Note that this uses a default white point given in the file *white_point.npy* in the *images* folder.
 
-    *Note:* The default *white_point.npy* in the *images* folder worked for both 2700K and 6500K lightbulbs in the experiments in the paper. However, it had to be adjusted when the lighting was weak and more yellowish such as in the video *"Weak yellowish illumination"* at https://juloss.github.io/RainbowTag/.
+    *Note:* The default *white_point.npy* in the *images* folder worked for both 2700K and 6500K lightbulbs in the experiments in the paper. However, it had to be adjusted when the lighting was weak and more yellowish such as in the video *"Weak yellowish illumination"* at https://juloss.github.io/rainbowtag/.
 
 **Getting the detection results:**
 - Processed image files are placed in a folder called *processed_images* in the *image* folder.
