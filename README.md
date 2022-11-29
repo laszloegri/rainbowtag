@@ -9,11 +9,11 @@ https://juloss.github.io/RainbowTag/ for RainbowTag demo videos and more.
 
 2. After installation, replace the file *color_objects.py* in the installed colormath package to *color_objects.py* given in this repository. 
 If a python environment is used, the file should be in *\Lib\site-packages\colormath*.
-(The conversion matrices in the python file at line 622 for RGB to XYZ and for XYZ to RGB are slightly changed based on information from http://brucelindbloom.com/. The differences between the old a new matrices are not big.)
+(The conversion matrices in the python file at line 622 for RGB to XYZ and for XYZ to RGB are slightly changed based on information from http://brucelindbloom.com/. The differences between the old and new matrices are not big.)
 
 3. Open the *parameters.py* file. Set the images_folder to the location where you want to store your images. The default folder is *image* inside the *rainbowtag* folder. Also set the *color_tables_folder* variable to a location where there is about 4 gigabytes of free space. The default folder is *color_tables* inside the *rainbowtag* folder.
 
-4. Create the color lookup tables by running the script *dynamic_color_master_table.py*. *Note: this takes hours but it has to be done only once.* The two resulting files together will be around 4 gigabytes. (Tables can be made smaller by setting LMS_quantization_number = 255 in *parameters.py*, however, this will result in slightly less precise color conversions. Note that if lighting conditions are fixed, it is also possible to pre-compute a smaller table that is specific to those lighting conditions.)
+4. Create color lookup tables by running the script *dynamic_color_master_table.py*. *Note: this takes hours but it has to be done only once.* The two resulting files together will be around 4 gigabytes. (Tables can be made smaller by setting LMS_quantization_number = 255 in *parameters.py*, however, this will result in slightly less precise color conversions. Note that if lighting conditions are fixed, it is also possible to pre-compute a smaller table that is specific to those lighting conditions.)
    
 5. After the tables are created, open the *parameters.py* file again. Set the variable *create_color_tables = False*.
 
