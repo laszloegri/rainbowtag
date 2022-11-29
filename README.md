@@ -9,7 +9,7 @@ https://juloss.github.io/RainbowTag/ for RainbowTag demo videos and more.
 
 2. After installation, replace the file *color_objects.py* in the installed colormath package to *color_objects.py* given in this repository. 
 If a python environment is used, the file should be in *\Lib\site-packages\colormath*.
-(The conversion matrices in the python file at line 622 for RGB to XYZ and for XYZ to RGB are slightly changed based on information from http://brucelindbloom.com/. The differences between the old and new matrices are not big.)
+(The conversion matrices in the python file at line 622 for RGB to XYZ and for XYZ to RGB are slightly changed based on information from http://brucelindbloom.com/. Differences between the old and new matrices are not big.)
 
 3. Open the *parameters.py* file. Set the images_folder to the location where you want to store your images. The default folder is *image* inside the *rainbowtag* folder. Also set the *color_tables_folder* variable to a location where there is about 4 gigabytes of free space. The default folder is *color_tables* inside the *rainbowtag* folder.
 
